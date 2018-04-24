@@ -17,7 +17,7 @@ client.on("message", (message) => {
   const command = args.shift().toLowerCase();
   
   if(command === "dance"){
-      message.channel.send("",{file:"C:\\Users\\User\\Documents\\Computer Science\\Projects\\rembot\\dance.gif"});
+      message.channel.send("",{file:"dance.gif"});
       console.log("dance!");
   }
 

@@ -1,0 +1,19 @@
+{
+  "name": "rembot",
+  "version": "1.0.0",
+  "main": "rembot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node rembot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cleverbot": "^1.0.1",
+    "discord.js": "^11.3.2",
+    "js-crawler": "^0.3.20",
+    "request": "2.81.0"
+  }
+}
